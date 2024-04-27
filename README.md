@@ -5,9 +5,9 @@ You can use it to build portable HTML packs for your video games created with th
 The player also utilizes Capacitor by Ionic to publish your games on mobile platforms.
 
 * Create a pack of your game assets by visiting `https://app.cinevva.com/api/projects/<your_game_id>/assets/pack.zip`
-* Unzip it to public/assets/pack
-* Run npm run dev to run it in a browser
-* Run npm run build to create a downloadable package in dist
+* Unzip it to `public/assets/pack`
+* Run `npm run dev` to run it in a browser
+* Run `npm run build` to create a downloadable package in dist directory
 
 Player requires a runtime repo that can be cloned at https://github.com/Cinevva-Inc/vio-core
 If you put these two repos next to each other, create a symlink by running the following command from the parent directory:
