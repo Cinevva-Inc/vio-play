@@ -1,0 +1,7 @@
+{
+  "name": "RoadHawk",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
