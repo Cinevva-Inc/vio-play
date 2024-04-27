@@ -11,5 +11,5 @@ The player also utilizes Capacitor by Ionic to publish your games on mobile plat
 
 Player requires a runtime repo that can be cloned at https://github.com/Cinevva-Inc/vio-core
 If you put these two repos next to each other, create a symlink by running the following command from the parent directory:
-ln -s ../../vio-core vio-play/src/core
+`ln  -s ../../vio-core vio-play/src/core`
 If your OS doesn't support symlinks, just copy vio-core into vio-play/src under the core name.
