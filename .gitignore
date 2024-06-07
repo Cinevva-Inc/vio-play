@@ -32,3 +32,5 @@ npm-debug.log*
 /www
 /public/pack
 /ios
+/public/uploads
+/public/api
