@@ -363,7 +363,7 @@ export default class App extends Vue {
     VIO.VioRender.composer.setPixelRatio(this.devicePixelRatio)
     this.viewport.appendChild(VIO.VioRender.canvasElement)
     this.viewport.appendChild(VIO.VioHud.instance.element)
-    this.project = await this.loadProject(params.get('project') ?? 'mzb4xt0m1ts')
+    this.project = await this.loadProject(params.get('project') ?? 'main')
     try {
       this.crazyGamesSdk?.game?.loadingStart()
       console.log('start loading scene')
